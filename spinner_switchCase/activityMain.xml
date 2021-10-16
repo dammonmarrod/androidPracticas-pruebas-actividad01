@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etMonedaIntroducida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spMoneda"
+        android:layout_marginBottom="85dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:inputType="number"
+        android:hint="Ingresa la cantidad a convertir en Euros." />
+
+    <Spinner
+        android:id="@+id/spMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnConvertir"
+        android:layout_marginBottom="133dp"
+        android:layout_centerHorizontal="true"></Spinner>
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvResultado"
+        android:layout_marginBottom="46dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Convertir"
+        android:onClick="btConvertir"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="98dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
