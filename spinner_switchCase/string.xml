@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Conversor de Monedas</string>
+
+    <string-array name="divisas_array">
+        <item>Dolar USD</item>
+        <item>Libra esterlina GBP</item>
+        <item>Yen japones JPY</item>
+        <item>Dólar Canadiense CAD</item>
+        <item>Dólar Australiano AUD</item>
+        <item>Sol peruano PEN</item>
+        <item>Peso argentino ARS</item>
+        <item>Rupia India INR</item>
+        <item>Yuan chino CNY</item>
+        <item>Shequel israelí ILS</item>
+    </string-array>
+
+</resources>
