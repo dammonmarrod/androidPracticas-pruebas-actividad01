@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Conversor de Monedas</string>
+
+    <!--Array para el adapter que muestra todas las divisas -->
+    <string-array name="divisas_array">
+        <item>Euro</item>
+        <item>Dolar USD</item>
+        <item>Libra esterlina GBP</item>
+        <item>Yen japones JPY</item>
+        <item>Dólar Canadiense CAD</item>
+        <item>Dólar Australiano AUD</item>
+        <item>Sol peruano PEN</item>
+        <item>Peso argentino ARS</item>
+        <item>Rupia India INR</item>
+        <item>Yuan chino CNY</item>
+        <item>Shequel israelí ILS</item>
+    </string-array>
+
+    <!--Array para el adapter que solo muestra Euro -->
+    <string-array name="euro">
+        <item>Euro</item>
+    </string-array>
+
+
+</resources>
